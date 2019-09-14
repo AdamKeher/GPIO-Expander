@@ -9,6 +9,8 @@ The PCF8574 device provides general-purpose remote I/O expansion for most microc
 The device features an 8-bit quasi-bidirectional I/O port (P0–P7), including latched outputs with highcurrent drive capability for directly driving LEDs. Each quasi-bidirectional I/O can be used as an input or output without the use of a data-direction control signal. At power on, the I/Os are high. In this mode, only a current source to VCC is active.
 
 The board has builtin buttons and LED's to help quickly prototype solutions and is able to be mounted either vertically or horizontally.
+
+A switchable jumper is provided to connect all tactiles switches to VCC or to GND.
 ## Features
 * 2.5V to 6.0V operation
 * Arduino Library
